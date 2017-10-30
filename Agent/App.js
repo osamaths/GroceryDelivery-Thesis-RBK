@@ -83,7 +83,7 @@ export default class App extends Component {
             return <Signup changeFlag={this.changeFlag.bind(this)} />;
         } else if (this.state.flag === 'getLists') {
             return <Getlists changeFlag={this.changeFlag.bind(this)} />;
-            // getLocation={this.getLocation.bind(this)} changeLocation={this.changeLocation.bind(this)} 
+            // getLocation={this.getLocation.bind(this)} changeLocation={this.changeLocation.bind(this)}
         }
     }
 }
